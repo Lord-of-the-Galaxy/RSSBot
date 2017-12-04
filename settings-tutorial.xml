@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rssbot>
+	<token>Your bot token here</token>
+	<updateperiod>How often (in seconds) should it update?</updateperiod><!-- Optional, default is 900 seconds (15minutes) -->
+	<rssbackupfolder>Where should it backup the internal RSS Feed record(s)?</rssbackupfolder>
+	<!-- RSS Feeds: -->
+	<feed id="101"><!-- ID is optional, it automatically assigns IDs when required -->
+		<link>Link to first feed</link>
+		<channel>Channel 1 ID</channel>
+		<channel>Channel 2 ID</channel>
+	</feed>
+	<feed>
+		<link>Link to second feed</link>
+		<channel>Channel ID</channel>
+	</feed>
+</rssbot>
