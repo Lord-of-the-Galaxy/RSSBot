@@ -15,6 +15,8 @@ import lord_of_galaxy.rss.model.*;
 
 /*
  * SRC - http://www.vogella.com/tutorials/RSSFeed/article.html
+ * Though I've made a lot of changes myself.
+ * So Lord of Galaxy is an author too.
  * Parses RSS feeds
  */
 
