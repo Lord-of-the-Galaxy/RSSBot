@@ -7,6 +7,9 @@ You also need to install discord.py, preferably the rewrite version. Only tested
 
 ## Configuration
 Edit rssbot.py
+Specifically, `delay` and `feeds`. 
+Delay is the delay between updates, in seconds
+Format for `feeds` is: `{"<ID>":{"link":"<link-to-rss-feed>", "channels":[<channel-ids-list>]}, "<ID2>":{"link":"<link-to-rss-feed-2>", "channels":[<channel-ids-list-for-link-2>]}}`
 
 ## Run it
 `python rssbot.py`
